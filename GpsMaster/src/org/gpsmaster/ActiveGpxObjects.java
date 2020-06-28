@@ -564,7 +564,6 @@ public class ActiveGpxObjects {
 
                 Object currSelection = tree.getLastSelectedPathComponent();
                 if (currSelection == null) {
-                    setActiveGpx(null);
                     return;
                 }
                 if (currSelection instanceof GPXObject) {
